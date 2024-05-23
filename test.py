@@ -9,7 +9,7 @@ x=0
 print(client.fetch_market_feed_scrip(req_list_))
 
 while True:
-  time.sleep(1)
+  
   x+=1
   print(client.fetch_market_feed_scrip(req_list_))
   print(x)
